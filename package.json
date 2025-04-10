@@ -1,6 +1,6 @@
 {
   "name": "michael.fergione.github.io",
-  "homepage": "https://fergione.github.io/michael.fergione.github.io",
+  "homepage": "https://michael.fergione.com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,9 +12,13 @@
     "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.3",
+    "framer-motion": "^11.0.3",
+    "gh-pages": "^6.3.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^6.22.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",
