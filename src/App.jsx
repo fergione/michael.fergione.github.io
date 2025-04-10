@@ -1,4 +1,6 @@
-import { Routes, Route, useLocation } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Routes, Route, useLocation, useNavigate } from 'react-router-dom'
+import { motion } from 'framer-motion'
 import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import Projects from './pages/Projects'
