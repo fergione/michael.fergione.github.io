@@ -43,9 +43,9 @@ function Home() {
             ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-12'}`}>
             <h1 className="text-4xl font-bold mb-6">Hello, I'm Michael</h1>
             <p className="text-xl text-zinc-400 leading-relaxed">
-              A passionate software developer focused on creating elegant solutions 
-              to complex problems. I specialize in modern web technologies and 
-              user-centric design.
+              A passionate engineer focused on creating elegant solutions 
+              to complex problems. I am interested in and passionate about
+              all things in computing from architecture to software.
             </p>
           </div>
 
