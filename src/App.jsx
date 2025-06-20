@@ -5,6 +5,7 @@ import Contact from './pages/Contact'
 import Resume from './pages/Resume'
 import Projects from './pages/Projects'
 import Blog from './pages/Blog'
+import Layout from './components/Layout'
 import './App.css'
 
 function Home() {
@@ -75,10 +76,10 @@ function App() {
   return (
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={<Home />} />
-      <Route path="/resume" element={<Resume />} />
-      <Route path="/projects" element={<Projects />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/blog" element={<Blog />} />
+      <Route path="/resume" element={<Layout><Resume /></Layout>} />
+      <Route path="/projects" element={<Layout><Projects /></Layout>} />
+      <Route path="/contact" element={<Layout><Contact /></Layout>} />
+      <Route path="/blog" element={<Layout><Blog /></Layout>} />
     </Routes>
   );
 }
