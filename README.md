@@ -1,4 +1,12 @@
-# React + Vite
+# Personal Website - Githubpages + React
+
+This is my personal website project that I took on to learn some basics about webpage
+and front end devolopment
+
+
+# Dependencies
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
